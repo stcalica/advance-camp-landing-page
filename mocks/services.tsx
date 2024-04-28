@@ -1,26 +1,18 @@
 export const services = [
-    {
-        id: "0",
-        title: "Wedding & Events",
-        content:
-            "Hidden Oasis resort is the perfect location for weddings and events. The resort offers a variety of event spaces, from intimate beachside ceremonies to grand ballroom receptions. The professional staff provides personalized attention to every detail, ensuring a memorable and stress-free experience for all guests.",
-        image: "/images/content/services-pic-1.jpg",
-        url: "/wedding-and-events",
-    },
-    {
-        id: "1",
-        title: "Dining",
-        content:
-            "Hidden Oasis resort offers a variety of dining options from beachside cafes to fine dining restaurants with fresh seafood and international cuisine. The restaurants offer breathtaking views of natural beauty, creating a serene atmosphere for all guests.",
-        image: "/images/content/services-pic-2.jpg",
-        url: "/dining",
-    },
-    {
-        id: "2",
-        title: "Beauty & Wellness",
-        content:
-            "Hidden Oasis resort offers a rejuvenating spa and wellness experience for guests. The resort has a variety of treatments, from traditional massages to aromatherapy, all designed to restore and invigorate the mind and body. The professional staff provides personalized attention to each guest, ensuring a relaxing and memorable experience.",
-        image: "/images/content/services-pic-3.jpg",
-        url: "/wellness",
-    },
+  {
+    id: "0",
+    title: "Steve Hoagland, Executive Director of AdvanceCamp",
+    content:
+      "I have been blessed over the years to work with many wonderful volunteers and now with the merger of AdvanceCamp into the wheel of GGAC success we feel a common goal and desire to see our Scouts working in the program expand.",
+    image: "/images/content/scoutshirt.jpg",
+    url: "/wedding-and-events",
+  },
+  {
+    id: "1",
+    title: "Tom Weibert, President of the GGAC Executive Board",
+    content:
+      "AdvanceCamp is an amazing event that brings Scouts from all over together to work on Merit Badges and other advancement activities. This is exciting to be able to bring the strength of the AdvanceCamp team together with the structure and volunteers of the Council to ensure this event continues well into the future.",
+    image: "/images/content/scoutshirt.jpg",
+    url: "/dining",
+  },
 ];

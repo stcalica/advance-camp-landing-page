@@ -9,16 +9,12 @@ import Services from "./Services";
 import Discover from "./Discover";
 
 const HomePage = () => {
-    return (
-        <Layout>
-            <Main />
-            <AboutUs />
-            <Offer />
-            <Details />
-            <Services />
-            <Discover />
-        </Layout>
-    );
+  return (
+    <Layout>
+      <AboutUs />
+      <Services />
+    </Layout>
+  );
 };
 
 export default HomePage;
