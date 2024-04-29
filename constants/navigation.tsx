@@ -7,12 +7,12 @@ export const navigation = [
     {
         id: "2",
         title: "About Us",
-        url: "/accommodation",
+        url: "/about-us",
     },
     {
         id: "3",
         title: "Camping",
-        url: "/accommodation",
+        url: "/accomodation",
     },
     {
         id: "4",
@@ -21,12 +21,12 @@ export const navigation = [
             {
                 id: "0",
                 title: "Merit Badge Courses",
-                url: "/dining",
+                url: "/merit-badges",
             },
             {
                 id: "1",
                 title: "Adult Leader Training",
-                url: "/wedding-and-events",
+                url: "/adult-leader-training",
             },
         ],
     },
@@ -53,29 +53,19 @@ export const menu = [
                 url: "/contact-us",
             },
             {
-                id: "2",
-                title: "Gift Card",
-                url: "/vouchers",
-            },
-            {
                 id: "3",
-                title: "Careers",
-                url: "/career",
-            },
-            {
-                id: "4",
                 title: "Privacy Notice",
                 url: "/policy",
             },
             {
-                id: "5",
+                id: "4",
                 title: "Legal Noice",
                 url: "/policy",
             },
             {
-                id: "6",
+                id: "5",
                 title: "Leadership",
-                url: "/history",
+                url: "/about-us",
             },
         ],
     },
