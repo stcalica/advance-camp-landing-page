@@ -7,7 +7,7 @@ export const team = [
         notables: ["Began scouting: 1965", "Assistant Scoutmaster; Committee Chair Troop 48; Charter", "Organization Representative Troop 48; District Committee", "Program Chair- Delta District, Black Diamond District; District", "FOS Chair- Muir District"],
         awards: ["Eagle Scout Troop 267 (1974)", "District Award of Merit (2003)",  "Silver Beaver (2010)", "Outstanding Eagle Award (2013)"],
         children: ["Steven (son), Eagle Scout (2001)"],
-        image: "/images/content/room-pic-1.jpg",
+        image: "/images/content/advance-camp-headshots/steve-hoagland-sr.jpeg",
         description: "Founded AdvanceCamp with the help from adult volunteers in the Delta District in 1999"
     },
     {
@@ -21,7 +21,7 @@ export const team = [
         ],
         awards: ["District Award of Merit (2013)"],
         children: ["Son, Michael (Eagle 2012)"],
-        image: "/images/content/room-pic-1.jpg",
+        image: "/images/content/advance-camp-headshots/mike-long.jpeg",
         description: "Began scouting: 2001 Pack 134 El Sobrante. Joined AdvanceCamp Board: 2013. "
     },
     {
@@ -36,7 +36,7 @@ export const team = [
             "Council Venturing Leadership Award (2010)","Area 3 Venturing Leadership Award (2017)"
         ],
         children: ["Son, David, Eagle Scout 2011"],
-        image: "/images/content/room-pic-1.jpg",
+        image: "/images/content/advance-camp-headshots/marcia-molina.png",
         description: "Began scouting: 2008 in Pittsburg, CA.  Joined AdvanceCamp Board: 2017"
     },
     {
@@ -47,7 +47,7 @@ export const team = [
         notables: [],
         awards: ["Eagle Scout(2001)"],
         children: [],
-        image: "/images/content/room-pic-1.jpg",
+        image: "/images/content/advance-camp-headshots/steve-jr.jpeg",
         description: "Joined AdvanceCamp Board: 1999"
     },
     {
@@ -58,7 +58,7 @@ export const team = [
         notables: [],
         awards: [],
         children: [],
-        image: "/images/content/room-pic-1.jpg",
+        image: "/images/content/advance-camp-headshots/rich-byle.png",
         description: "Joined AdvanceCamp Board: 2022. U. S. Navy Veteran (1976-1984). Began Scouting in 1964, Pack 342, Santa Clara Council"
     },
     {
@@ -69,7 +69,7 @@ export const team = [
         notables: ["Assistant Advisor Crew 48"],
         awards: [],
         children: ["Son, Alex, Eagle Scout (2015)"],
-        image: "/images/content/room-pic-1.jpg",
+        image: "/images/content/advance-camp-headshots/maria-salazar.png",
         description: "Joined AdvanceCamp Board (2018). Began Scouting in 2010."
     },
     {
@@ -89,7 +89,7 @@ export const team = [
             "Program Chair Herms District (2011-2013)"
         ],
         children: ["Michael (son); Eagle Scout (2012)"],
-        image: "/images/content/room-pic-1.jpg",
+        image: "/images/content/advance-camp-headshots/deborah-long.jpeg",
         description: "Joined AdvanceCamp Board (2013). Began scouting(2001). Pack 134 El Sobrante."
     },
     {
@@ -100,7 +100,7 @@ export const team = [
         notables: [],
         awards: [],
         children: [],
-        image: "/images/content/room-pic-1.jpg",
+        image: "/images/content/advance-camp-headshots/andrew-gonzalez.jpeg",
         description: ""
     },
 ];

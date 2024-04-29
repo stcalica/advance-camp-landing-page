@@ -3,7 +3,7 @@ import Image from "@/components/Image";
 
 type ServicesProps = {};
 
-import { services } from "@/mocks/services";
+import { testimonials as services } from "@/mocks/testimonials";
 
 const Services = ({}: ServicesProps) => (
   <div className="py-20 bg-white md:pb-18">

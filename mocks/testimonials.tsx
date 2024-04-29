@@ -1,4 +1,4 @@
-export const services = [
+export const testimonials = [
   {
     id: "0",
     title: "Steve Hoagland, Executive Director of AdvanceCamp",
