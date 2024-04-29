@@ -35,9 +35,25 @@ const AboutUs = ({}: AboutUsProps) => (
             The event attracts Scouts from across California and Nevada, and
             this merger promises to expand our reach even further.
           </div>
+          <div className="mb-8">
+             Since its inception in 1998, AdvanceCamp has served over 30,000
+            Scouts, providing a platform for them to complete partials for
+            unusual merit badges. The event has grown from 300 Scouts and 15
+            merit badges to a major annual gathering, thanks to the tireless
+            efforts of Steve Hoagland, the Executive Director of AdvanceCamp.
+          </div>
+          <div>
+            As we continue to regain momentum post-COVID, we're excited to see
+            the growing partnership between GGAC and AdvanceCamp, with more
+            volunteers than ever before. Registration for AdvanceCamp opens in
+            early June, with more details about this year’s event coming soon. 
+             If you're interested in volunteering, click the button below to
+            learn more! 
+          </div>
+          <div className="mb-8 font-bold">We can’t wait to see you there!</div>
         </div>
         <Link
-          className="px-6 py-3 bg-transparent hover:bg-orange-500 text-orange-700 font-semibold hover:text-white border border-orange-500 hover:border-transparent"
+          className="px-16 py-3 bg-transparent hover:bg-orange-500 text-orange-700 font-semibold hover:text-white border border-orange-500 hover:border-transparent"
           href=""
         >
           Sign up

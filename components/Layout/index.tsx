@@ -38,7 +38,20 @@ const Layout = ({ children }: LayoutProps) => {
       <div className="flex flex-col min-h-screen lg:overflow-hidden">
         <Header onClick={onOpenSidebar} />
         <div className="grow">{children}</div>
+        <Footer />
       </div>
+      <Sidebar
+        className={`transition-transform duration-300 ${
+          visible ? "translate-x-0" : "-translate-x-full"
+        }`}
+        onClick={onCloseSidebar}
+      />
+      <div
+        className={`fixed inset-0 z-20 bg-black/60 transition-all ${
+          visible ? "visible opacity-100" : "invisible opacity-0"
+        }`}
+        onClick={onCloseSidebar}
+      ></div>
     </>
   );
 };

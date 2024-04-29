@@ -9,24 +9,35 @@ type HeaderProps = {
 
 const Header = ({ onClick }: HeaderProps) => {
   return (
-    <div className="z-10 flex-row items-center bg-neutral-700">
-      <div className="flex items-center py-4 px-4">
-        <Link className="" href="/">
-          <Image
-            className="opacity-100"
-            src="/images/content/advcamplogo.png"
-            width={100}
-            height={25}
-            alt=""
-          />
-        </Link>
+    <header className="relative z-10  bg-neutral-700">
+      <div className="py-4">
+        <div className="container relative flex items-center h-[4.8125rem] md:flex-row-reverse">
+          <button
+            className="group flex flex-col justify-center items-center w-12 h-12 mr-auto before:w-8 before:h-0.5 before:bg-n-400 before:rounded before:transition-colors after:w-4 after:h-0.5 after:bg-n-400 after:rounded after:transition-colors hover:before:bg-orange-500 hover:after:bg-orange-500 lg:mr-8 md:ml-auto md:mr-0"
+            onClick={onClick}
+          >
+            <span className="w-6 h-0.5 my-1.5 rounded bg-n-400 transition-colors group-hover:bg-orange-500"></span>
+          </button>
+          <Link
+            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 lg:static lg:mr-auto lg:translate-x-0 lg:translate-y-0"
+            href="/"
+          >
+            <Image
+              className="opacity-100"
+              src="/images/content/advcamplogo.png"
+              width={75}
+              height={15}
+              alt=""
+            />
+          </Link>
+        </div>
       </div>
-      <div className="lg:hidden">
-        <div className="">
+      <div className="pt-0.25 lg:hidden">
+        <div className="container">
           <Dropdown />
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 
