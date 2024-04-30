@@ -2,7 +2,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Scrollbar } from "swiper/modules";
 import "swiper/css/scrollbar";
 import "swiper/css";
-import DiningItem from "@/components/DiningItem";
 
 import { dining } from "@/mocks/dining";
 
@@ -33,7 +32,6 @@ const Interested = ({}: InterestedProps) => (
             >
                 {dining.map((room) => (
                     <SwiperSlide className="" key={room.id}>
-                        <DiningItem className="h-full" item={room} />
                     </SwiperSlide>
                 ))}
             </Swiper>

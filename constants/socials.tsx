@@ -1,4 +1,10 @@
-export const socials = [
+interface Social {
+  id: string;
+  icon: string;
+  url: string;
+}
+
+export const socials: Social[] = [
   {
     id: "0",
     icon: "facebook",
@@ -7,8 +13,8 @@ export const socials = [
   {
     id: "1",
     icon: "instagram",
-    url: "",
+    url: "https://www.instagram.com/advancecamp",
   },
 ];
 
-export const socialsPost = [];
+export const socialsPost: Social[] = [];

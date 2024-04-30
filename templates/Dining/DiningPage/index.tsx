@@ -1,7 +1,6 @@
 "use client";
 
 import Layout from "@/components/Layout";
-import DiningItem from "@/components/DiningItem";
 
 import { dining } from "@/mocks/dining";
 
@@ -27,14 +26,6 @@ const DiningPage = () => {
                         </div>
                     </div>
                     <div className="space-y-14 md:space-y-8">
-                        {dining.map((item) => (
-                            <DiningItem
-                                className="even:flex-row-reverse"
-                                item={item}
-                                key={item.id}
-                                row
-                            />
-                        ))}
                     </div>
                 </div>
             </div>
