@@ -11,11 +11,11 @@ type SidebarProps = {
 
 const Sidebar = ({ className, onClick }: SidebarProps) => (
   <div
-    className={`fixed top-0 left-0 bottom-0 z-30 w-[34.7rem] p-14 overflow-auto scrollbar-none 2xl:w-[28rem] 2xl:p-10 lg:p-8 lg:pt-7 md:flex md:flex-col md:w-full bg-neutral-700 ${
+    className={`fixed top-0 left-0 bottom-0 z-30 w-full sm:w-[34.7rem] p-4 sm:p-14 overflow-auto scrollbar-none 2xl:w-[28rem] 2xl:p-10 lg:p-8 lg:pt-7 md:flex md:flex-col bg-neutral-700 ${
       className || ""
     }`}
   >
-    <div className="flex items-start justify-between mb-9 lg:items-center">
+    <div className="flex justify-between mb-9 items-center lg:items-start">
       <Link className="" href="/">
         <Image
           className="opacity-100"
@@ -27,7 +27,7 @@ const Sidebar = ({ className, onClick }: SidebarProps) => (
       </Link>
       <button className="group" onClick={onClick}>
         <Icon
-          className="w-8 h-8 fill-n-600 transition-colors group-hover:fill-orange-500 lg:w-6 lg:h-6"
+          className="w-8 h-8 fill-n-600 transition-colors group-hover:fill-orange-500"
           name="close"
         />
       </button>

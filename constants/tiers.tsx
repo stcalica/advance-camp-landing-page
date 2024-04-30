@@ -1,22 +1,23 @@
 export const tiers = [
     {
       id: "0",
-      name: "Early Registration",
+      title: "Early Registration",
+      price: "$65",
       startDate: "",
       endDate: ""
     },
     {
-        id: "0",
-        name: "Regular Registration",
+        id: "1",
+        title: "Regular Registration",
+        price: "$85",
         startDate: "",
         endDate: ""
     },
     {
-        id: "0",
-        name: "Late Registration",
+        id: "2",
+        title: "Late Registration",
+        price: "$105",
         startDate: "",
         endDate: ""
     },
   ];
-  
-  export const tiers = [];

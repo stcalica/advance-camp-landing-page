@@ -10,21 +10,12 @@ const config: Config = {
     ],
     theme: {
         screens: {
-            'hover-hover': {'raw': '(hover: hover)'},
-            // => @media (hover: hover) { ... }
-            "3xl": { max: "1719px" },
-            // => @media (max-width: 1719px) { ... }
-            "2xl": { max: "1419px" },
-            // => @media (max-width: 1419px) { ... }
-            xl: { max: "1179px" },
-            // => @media (max-width: 1179px) { ... }
-            lg: { max: "1023px" },
-            // => @media (max-width: 1023px) { ... }
-            md: { max: "767px" },
-            // => @media (max-width: 767px) { ... }
-            sm: { max: "480px" },
-            // => @media (max-width: 480px) { ... }
-        },
+            'sm': {'min': '640px'},  // Styles apply for screens 640px wide and above
+            'md': {'min': '768px'},  // Styles apply for screens 768px wide and above
+            'lg': {'min': '1024px'}, // Styles apply for screens 1024px wide and above
+            'xl': {'min': '1280px'}, // Styles apply for screens 1280px wide and above
+            '2xl': {'min': '1536px'} // Styles apply for screens 1536px wide and above
+          },
         extend: {
             colors: {
                 primary: {

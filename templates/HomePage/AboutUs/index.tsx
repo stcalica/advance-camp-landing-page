@@ -4,18 +4,19 @@ import Image from "@/components/Image";
 type AboutUsProps = {};
 
 const AboutUs = ({}: AboutUsProps) => (
-  <div className="py-32 2xl:py-24 lg:py-20 md:pb-10">
-    <div className="container flex items-center max-w-[76.875rem] md:block">
-      <div className="">
+  <div className="lg:py-32 2xl:py-24 py-20 md:pb-10">
+    <div className="container flex flex-column items-center max-w-[76.875rem] lg:flex-row">
+      <div className="hidden lg:block">
         <Image
           className="w-full"
           src="/images/content/advcamplogo.png"
           width={425}
           height={425}
-          alt=""
+          alt="advance camp photo"
         />
-      </div>
-      <div className="grow pl-[10.625rem] 2xl:pl-20 xl:pl-12 lg:pl-0">
+      </div>    
+
+      <div className="grow md:pl-[10.625rem] 2xl:pl-20 xl:pl-12 lg:pl-0">
         <div className="mb-8 text-h2 text-black">
           Get Ready for an Exciting New Chapter in Scouting!
         </div>

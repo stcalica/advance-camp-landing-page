@@ -3,14 +3,14 @@ import Image from "@/components/Image";
 
 type ServicesProps = {};
 
-import { testimonials as services } from "@/mocks/testimonials";
+import { testimonials  } from "@/mocks/testimonials";
 
 const Services = ({}: ServicesProps) => (
   <div className="py-20 bg-white md:pb-18">
     <div className="container">
       <div className="mb-12 text-center text-h2 text-black">Testimonials</div>
-      <div className="flex space-x-14 2xl:space-x-8 lg:block lg:space-x-0 lg:space-y-12 md:space-y-8">
-        {services.map((service) => (
+      <div className="flex space-x-14 md:space-x-8 flex-col lg:flex-row lg:space-x-0 lg:space-y-12 xl:space-y-8">
+        {testimonials.map((service) => (
           <div className="group block flex-1 text-n-700">
             <div className="h-[24rem] mb-8 overflow-hidden xl:h-[24rem] md:h-[24rem]">
               <Image
