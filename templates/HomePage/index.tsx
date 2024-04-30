@@ -5,16 +5,18 @@ import Main from "./Main";
 import AboutUs from "./AboutUs";
 import Offer from "./Offer";
 import Details from "./Details";
-import Services from "./Services";
+import Testimonials from "./Testimonials";
 import Discover from "./Discover";
 import Pricing from "./Pricing";
+import Announcements from "./Announcements";
 
 const HomePage = () => {
   return (
     <Layout>
       <AboutUs />
       <Pricing />
-      <Services />
+      <Announcements />
+      <Testimonials />
     </Layout>
   );
 };

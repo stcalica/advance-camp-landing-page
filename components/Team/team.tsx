@@ -21,7 +21,7 @@ const Member = ({ member }: MemberProps) => {
         <div className="container-lg">
             <div className="flex flex-col  lg:flex-row justify-center items-start">
                 <figure className="flex flex-col items-center space-y-2 w-full md:w-[500px]">
-                    <figcaption className="text-lg font-semibold">{member.title}</figcaption>
+                    <figcaption className="text-lg font-semibold text-center">{member.title}</figcaption>
                     <img src={member.image} alt={`Image of ${member.name}`} className="w-32 h-32 rounded-full object-cover" />
                     <h3 className="text-sm text-gray-600">{member.name}</h3>
                     <div>

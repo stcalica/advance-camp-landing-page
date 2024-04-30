@@ -17,47 +17,32 @@ const AboutUs = ({}: AboutUsProps) => (
       </div>    
 
       <div className="grow md:pl-[10.625rem] 2xl:pl-20 xl:pl-12 lg:pl-0">
-        <div className="mb-8 text-h2 text-black">
-          Get Ready for an Exciting New Chapter in Scouting!
+        <div className="text-h2 text-black">
+            Advance Camp
+        </div>
+        <div className="mb-8 font-bold text-black">
+          <h3>September 27-28, 2024 | Solano County Fairgrounds</h3>
         </div>
         <div className="flex-col gap-2 text-1xl text-black">
-          <div className="mb-8">
-            The Golden Gate Area Council (GGAC) and AdvanceCamp, Inc. are
-            thrilled to announce their merger, following unanimous votes by both
-            boards. This strategic alliance will see AdvanceCamp forming a new
-            committee within our GGAC Program committees, ensuring the annual
-            AdvanceCamp event continues to thrive and grow.
-          </div>
-          <div className="mb-8 font-bold">
-            Mark your calendars for the 24th AdvanceCamp, taking place on
-            September 27-28, 2024 at the Solano County Fairgrounds.
-          </div>
-          <div className="mb-8">
-            The event attracts Scouts from across California and Nevada, and
-            this merger promises to expand our reach even further.
-          </div>
-          <div className="mb-8">
-             Since its inception in 1998, AdvanceCamp has served over 30,000
+          <div className="mb-8 text-justify">
+          Since its inception in 1998, AdvanceCamp has served over 30,000
             Scouts, providing a platform for them to complete partials for
-            unusual merit badges. The event has grown from 300 Scouts and 15
-            merit badges to a major annual gathering, thanks to the tireless
+            unusual merit badges. From 300 Scouts and 15 merit badges to a major annual gathering, thanks to the tireless
             efforts of Steve Hoagland, the Executive Director of AdvanceCamp.
           </div>
-          <div>
-            As we continue to regain momentum post-COVID, we're excited to see
-            the growing partnership between GGAC and AdvanceCamp, with more
-            volunteers than ever before. Registration for AdvanceCamp opens in
-            early June, with more details about this year’s event coming soon. 
-             If you're interested in volunteering, click the button below to
-            learn more! 
+          <div className="mb-8 font-bold text-justify">
+            Mark your calendars for the 24th AdvanceCamp, taking place on
+            September 27-28, 2024 at the Solano County Fairgrounds. 
+            Registration opens June 1st. 
           </div>
-          <div className="mb-8 font-bold">We can’t wait to see you there!</div>
+          <div className="mb-8">
+          </div>
         </div>
         <Link
           className="px-16 py-3 bg-transparent hover:bg-orange-500 text-orange-700 font-semibold hover:text-white border border-orange-500 hover:border-transparent"
           href=""
         >
-          Sign up
+          Register
         </Link>
       </div>
     </div>
