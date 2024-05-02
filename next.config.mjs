@@ -2,6 +2,7 @@
 
 const nextConfig = {
     output: "export",  // <=== enables static exports
+    assetPrefix: "/public/",
     reactStrictMode: true,
   };
   
