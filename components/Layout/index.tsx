@@ -1,59 +1,59 @@
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import {
-    enablePageScroll,
-    disablePageScroll,
-    clearQueueScrollLocks,
+  enablePageScroll,
+  disablePageScroll,
+  clearQueueScrollLocks,
 } from "scroll-lock";
 import Header from "@/components/Header";
 import Sidebar from "@/components/Sidebar";
 import Footer from "@/components/Footer";
 
 type LayoutProps = {
-    children: React.ReactNode;
+  children: React.ReactNode;
 };
 
 const Layout = ({ children }: LayoutProps) => {
-    const [visible, setVisible] = useState<boolean>(false);
+  const [visible, setVisible] = useState<boolean>(false);
 
-    const onOpenSidebar = () => {
-        setVisible(true);
-        disablePageScroll();
-    };
+  const onOpenSidebar = () => {
+    setVisible(true);
+    disablePageScroll();
+  };
 
-    const onCloseSidebar = () => {
-        setVisible(false);
-        enablePageScroll();
-    };
+  const onCloseSidebar = () => {
+    setVisible(false);
+    enablePageScroll();
+  };
 
-    const pathname = usePathname();
+  const pathname = usePathname();
 
-    useEffect(() => {
-        clearQueueScrollLocks();
-        enablePageScroll();
-    }, [pathname]);
-
-    return (
-        <>
-            <div className="flex flex-col min-h-screen lg:overflow-hidden">
-                <Header onClick={onOpenSidebar} />
-                <div className="grow">{children}</div>
-                <Footer />
-            </div>
-            <Sidebar
-                className={`transition-transform duration-300 ${
-                    visible ? "translate-x-0" : "-translate-x-full"
-                }`}
-                onClick={onCloseSidebar}
-            />
-            <div
-                className={`fixed inset-0 z-20 bg-black/60 transition-all ${
-                    visible ? "visible opacity-100" : "invisible opacity-0"
-                }`}
-                onClick={onCloseSidebar}
-            ></div>
-        </>
-    );
+  useEffect(() => {
+    clearQueueScrollLocks();
+    enablePageScroll();
+  }, [pathname]);
+//TODO: might have to fix overflow-hidden to lg:overflow-hidden
+  return (
+    <>
+      <div className="flex flex-col min-h-screen overflow-hidden">
+        <Header onClick={onOpenSidebar} />
+        <div className="grow">{children}</div>
+        <Footer />
+      </div>
+      <Sidebar
+        className={`transition-transform duration-300 ${
+          visible ? "translate-x-0" : "-translate-x-full"
+        }`}
+        onClick={onCloseSidebar}
+      />
+      <div
+        className={`fixed inset-0 z-20 bg-black/60 transition-all ${
+          visible ? "visible opacity-100" : "invisible opacity-0"
+        }`}
+        onClick={onCloseSidebar}
+      ></div>
+    </>
+  );
 };
 
 export default Layout;
