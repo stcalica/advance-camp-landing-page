@@ -24,7 +24,7 @@ const Header = ({ onClick }: HeaderProps) => {
           >
             <Image
               className="opacity-100"
-              src="/images/content/advcamplogo.png"
+              src="images/content/advcamplogo.png"
               width={75}
               height={15}
               alt=""

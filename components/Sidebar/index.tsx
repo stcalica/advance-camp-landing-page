@@ -19,7 +19,7 @@ const Sidebar = ({ className, onClick }: SidebarProps) => (
       <Link className="" href="/">
         <Image
           className="opacity-100"
-          src="/images/content/advcamplogo.png"
+          src="images/content/advcamplogo.png"
           width={100}
           height={20}
           alt=""
