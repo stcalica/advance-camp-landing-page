@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "@/components/Image";
 import PricingTier from "@/components/PricingTiers";
 import { tiers } from "@/constants/tiers";
