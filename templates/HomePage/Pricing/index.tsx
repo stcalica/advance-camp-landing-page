@@ -3,6 +3,7 @@ import PricingTier from "@/components/PricingTiers";
 import { tiers } from "@/constants/tiers";
 
 type PropTypes = {};
+console.log("tiers", tiers);
 
 const Pricing = ({}: PropTypes) => (
     <div className="w-full flex flex-col items-center justify-center">  
