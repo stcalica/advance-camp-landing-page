@@ -24,7 +24,7 @@ const MyDatePicker = ({
             <div className="relative">
                 <DatePicker
                     wrapperClassName="!block"
-                    className="w-full h-13.5 pl-4 pr-12 bg-white border border-n-100 font-sans text-16r text-n-600 placeholder:text-n-600 transition-colors focus:border-n-200 outline-none"
+                    className="w-full h-13.5 pl-4 pr-12 bg-secondary-500 border border-n-100 font-sans text-16r text-n-600 placeholder:text-n-600 transition-colors focus:border-n-200 outline-none"
                     dateFormat="MMM dd, yyyy"
                     selected={selected}
                     minDate={today}

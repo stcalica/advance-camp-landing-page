@@ -12,11 +12,11 @@ const Details = ({}: DetailsProps) => {
     const [message, setMessage] = useState("");
 
     return (
-        <div className="py-20 md:pt-10 md:pb-20">
+        <div className="py-20 md:pt-10 md:pb-20 text-black">
             <div className="container-lg">
                 {success ? (
                     <>
-                        <div className="flex items-center px-14 py-12 bg-white md:block md:px-5">
+                        <div className="flex items-center px-14 py-12 bg-secondary-500 md:block md:px-5">
                             <div className="shrink-0 w-20 md:mb-6">
                                 <Image
                                     className="w-full opacity-100"

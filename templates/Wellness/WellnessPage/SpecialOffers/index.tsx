@@ -10,7 +10,7 @@ const SpecialOffers = ({}: SpecialOffersProps) => (
             <div className="mb-10 text-center text-h2 md:text-left">
                 Special Offers.
             </div>
-            <div className="flex mb-10 bg-white md:block">
+            <div className="flex mb-10 bg-secondary-500 md:block">
                 <div className="shrink-0 w-[25.75rem] lg:w-[20rem] md:w-full md:h-[25.125rem]">
                     <Image
                         className="w-full h-full object-cover"

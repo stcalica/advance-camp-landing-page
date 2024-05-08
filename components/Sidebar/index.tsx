@@ -11,7 +11,7 @@ type SidebarProps = {
 
 const Sidebar = ({ className, onClick }: SidebarProps) => (
   <div
-    className={`fixed top-0 left-0 bottom-0 z-30 w-full sm:w-[34.7rem] p-4 sm:p-14 overflow-auto scrollbar-none 2xl:w-[28rem] 2xl:p-10 lg:p-8 lg:pt-7 md:flex md:flex-col bg-neutral-700 ${
+    className={`fixed top-0 left-0 bottom-0 z-30 w-full sm:w-[34.7rem] p-4 sm:p-14 overflow-auto scrollbar-none 2xl:w-[28rem] 2xl:p-10 lg:p-8 lg:pt-7 md:flex md:flex-col bg-tertiary-500 ${
       className || ""
     }`}
   >
@@ -35,7 +35,7 @@ const Sidebar = ({ className, onClick }: SidebarProps) => (
     <div className="flex flex-col items-start space-y-6">
       {navigation.map((link) => (
           <Link
-            className="py-1 text-h4-libre text-orange-500 transition-colors hover:text-white"
+            className="py-1 text-h4-libre text-white transition-colors hover:text-orange-500"
             href={link.url}
             key={link.id}
           >

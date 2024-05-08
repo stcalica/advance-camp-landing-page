@@ -59,7 +59,7 @@ const Modal = ({
                 >
                     <Dialog.Panel
                         className={twMerge(
-                            `relative z-10 max-w-[53.13rem] w-full m-auto bg-white ${
+                            `relative z-10 max-w-[53.13rem] w-full m-auto bg-secondary-500 ${
                                 video
                                     ? "max-w-[64rem] aspect-video bg-black"
                                     : ""
@@ -82,7 +82,7 @@ const Modal = ({
                             className={twMerge(
                                 `absolute top-3 right-3 w-10 h-10 text-0 fill-n-700 hover:!fill-color-5 dark:fill-n-3 ${
                                     video
-                                        ? "top-0 right-0 bg-white fill-n-700"
+                                        ? "top-0 right-0 bg-secondary-500 fill-n-700"
                                         : ""
                                 } ${classButtonClose || ""}`
                             )}

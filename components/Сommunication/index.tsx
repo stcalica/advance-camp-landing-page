@@ -4,7 +4,7 @@ type СommunicationProps = {
 
 const Сommunication = ({ className }: СommunicationProps) => (
     <div
-        className={`p-6 border border-n-700 bg-white text-center ${
+        className={`p-6 border border-n-700 bg-secondary-500 text-center text-black ${
             className || ""
         }`}
     >
@@ -16,7 +16,7 @@ const Сommunication = ({ className }: СommunicationProps) => (
             dedicated to making it smooth, flawless and memorable. It’s what we
             live for, really.
         </div>
-        <div className="mb-5">Contact us for more information</div>
+        <div className="mb-5 text-black">Contact us for more information</div>
         <a
             className="btn-secondary btn-lg min-w-[13.5rem] text-16m"
             href="tel:+84654343543"

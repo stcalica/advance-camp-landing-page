@@ -43,7 +43,7 @@ const Language = ({ className, fullName, up }: LanguageProps) => {
                 leaveTo="opacity-0"
             >
                 <Listbox.Options
-                    className={`absolute -left-2 -right-2 py-1 bg-white ${
+                    className={`absolute -left-2 -right-2 py-1 bg-secondary-500 ${
                         up ? "bottom-full mb-1 shadow-md" : "top-full mt-1"
                     }`}
                 >

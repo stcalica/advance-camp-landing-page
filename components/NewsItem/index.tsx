@@ -14,7 +14,7 @@ type NewsItemProps = {
 };
 
 const NewsItem = ({ className, item }: NewsItemProps) => (
-    <div className={`flex flex-col bg-white ${className || ""}`}>
+    <div className={`flex flex-col bg-secondary-500 ${className || ""}`}>
         <div className="h-[20.625rem]">
             <Image
                 className="w-full h-full object-cover"

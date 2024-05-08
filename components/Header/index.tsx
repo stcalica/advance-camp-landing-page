@@ -9,7 +9,7 @@ type HeaderProps = {
 
 const Header = ({ onClick }: HeaderProps) => {
   return (
-    <header className="relative z-10  bg-neutral-700">
+    <header className="relative z-10  bg-tertiary-500">
       <div className="py-4">
         <div className="container relative flex items-center h-[4.8125rem] lg:flex-row-reverse">
           <button

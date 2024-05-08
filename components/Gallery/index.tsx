@@ -56,7 +56,7 @@ const Gallery = ({ images, index }: GalleryProps) => {
                 </Swiper>
                 <div className="md:flex md:justify-center md:mt-5 md:space-x-6">
                     <button
-                        className="absolute top-1/2 -left-20 w-14 h-14 -translate-y-1/2 transition-opacity outline-none hover:opacity-80 lg:z-3 lg:left-0 lg:w-10 lg:h-10 lg:bg-white md:static md:translate-y-0"
+                        className="absolute top-1/2 -left-20 w-14 h-14 -translate-y-1/2 transition-opacity outline-none hover:opacity-80 lg:z-3 lg:left-0 lg:w-10 lg:h-10 lg:bg-primary-500 md:static md:translate-y-0"
                         onClick={() => swiperRef.current?.slidePrev()}
                     >
                         <Icon
@@ -65,7 +65,7 @@ const Gallery = ({ images, index }: GalleryProps) => {
                         />
                     </button>
                     <button
-                        className="absolute top-1/2 -right-20 w-14 h-14 -translate-y-1/2 transition-opacity outline-none hover:opacity-80 lg:z-3 lg:right-0 lg:w-10 lg:h-10 lg:bg-white md:static md:translate-y-0"
+                        className="absolute top-1/2 -right-20 w-14 h-14 -translate-y-1/2 transition-opacity outline-none hover:opacity-80 lg:z-3 lg:right-0 lg:w-10 lg:h-10 lg:bg-primary-500 md:static md:translate-y-0"
                         onClick={() => swiperRef.current?.slideNext()}
                     >
                         <Icon

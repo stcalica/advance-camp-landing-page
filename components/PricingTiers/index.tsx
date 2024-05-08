@@ -8,10 +8,10 @@ type tierType = {
 };
 
 const PricingTier = ({tier}: {tier: tierType}) => (
-    <figure className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-lg transition-all hover:shadow-xl
-    w-full xl:min-w-[400px] h-[250px]">
-            <h1 className="text-8xl font-extrabold text-sans leading-none mb-2 text-gray-800">${tier.price}</h1>
-        <figcaption className="text-xl font-semibold text-gray-600">{tier.title}</figcaption>
+    <figure className="flex flex-col items-center justify-center p-4 bg-tertiary-500 rounded-lg shadow-lg transition-all hover:shadow-xl
+    w-full xl:min-w-[400px] h-[250px] text-white">
+            <h1 className="text-8xl font-extrabold text-sans leading-none mb-2 text-white">${tier.price}</h1>
+        <figcaption className="text-xl font-semibold text-white">{tier.title}</figcaption>
     </figure>
 );
 export default PricingTier;

@@ -28,7 +28,7 @@ const Field = ({
                 {textarea ? (
                     <textarea
                         className={twMerge(
-                            `w-full h-[15.5rem] px-4 py-2.5 bg-white border border-n-100 font-sans text-base text-n-600 resize-none placeholder:text-n-600 transition-colors focus:border-n-200 outline-none ${
+                            `w-full h-[15.5rem] px-4 py-2.5 bg-secondary-500 border border-n-100 font-sans text-base text-n-600 resize-none placeholder:text-n-600 transition-colors focus:border-n-200 outline-none ${
                                 classInput || ""
                             }`
                         )}
@@ -37,7 +37,7 @@ const Field = ({
                 ) : (
                     <input
                         className={twMerge(
-                            `w-full h-13.5 px-4 bg-white border border-n-100 font-sans text-base text-n-600 placeholder:text-n-600 transition-colors focus:border-n-200 outline-none ${
+                            `w-full h-13.5 px-4 bg-secondary-500 border border-n-100 font-sans text-base text-n-600 placeholder:text-n-600 transition-colors focus:border-n-200 outline-none ${
                                 classInput || ""
                             }`
                         )}

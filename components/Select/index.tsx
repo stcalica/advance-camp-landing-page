@@ -33,7 +33,7 @@ const Select = ({
             className={`justify-between items-center text-n-600 outline-none ${
                 simple
                     ? "inline-flex text-14r"
-                    : "flex w-full h-13.5 px-4 border border-n-100 bg-white text-16r transition-colors ui-open:border-n-200"
+                    : "flex w-full h-13.5 px-4 border border-n-100 bg-secondary-500 text-16r transition-colors ui-open:border-n-200"
             }`}
         >
             <div className="truncate">{value ? value.title : placeholder}</div>
@@ -51,7 +51,7 @@ const Select = ({
             leaveTo="transform scale-95 opacity-0"
         >
             <Listbox.Options
-                className={`absolute top-full z-2 bg-white outline-none ${
+                className={`absolute top-full z-2 bg-secondary-500 outline-none ${
                     simple
                         ? "-left-6 min-w-[14rem] mt-2 p-6 space-y-4 shadow-[0.0625rem_0.3125rem_0.75rem_0_rgba(0,0,0,0.30)]"
                         : "left-0 right-0 mt-0.5 border border-n-200"

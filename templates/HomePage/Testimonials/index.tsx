@@ -6,7 +6,7 @@ type ServicesProps = {};
 import { testimonials  } from "@/mocks/testimonials";
 
 const Services = ({}: ServicesProps) => (
-  <div className="py-20 bg-white md:pb-18">
+  <div className="py-20 bg-secondary-500 md:pb-18">
     <div className="container">
       <div className="flex flex-col lg:flex-row gap-4">
         {testimonials.map((testimonial) => (
@@ -20,8 +20,8 @@ const Services = ({}: ServicesProps) => (
                 alt=""
               />
             </div>
-            <div className="mb-4 text-h5 text-black">{testimonial.title}</div>
-            <div className="text-black text-justify">{`"${testimonial.content}"`}</div>
+            <div className="mb-4 text-h5 text-font-header">{testimonial.title}</div>
+            <div className="text-font-header text-justify">{`"${testimonial.content}"`}</div>
           </div>
         ))}
       </div>

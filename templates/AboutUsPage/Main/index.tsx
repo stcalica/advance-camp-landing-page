@@ -10,7 +10,7 @@ const Main = ({}: MainProps) => (
             <div className="mb-10 text-center text-h2 md:text-left">
                 Advance Camp
             </div>
-            <div className="content text-justify">
+            <div className="content text-justify text-font-primary">
                 <p>The mission of the AdvanceCamp is to support educational opportunities for youth and to provide an effective program that: develops personal/mental/emotional fitness, gives opportunities to develop self-reliance, develops a keen respect for the basic rights of others and prepares scouts for participating and giving leadership within their community and world.</p>
 
                 <p>AdvanceCamp began in 1998 when a scout talked to Steve Hoagland because he had a number of partials of unusual merit badges from summer camps he had attended.  He wanted to finish them but could not find a merit badge counselor for them.  The first camp was held at Contra Costa Fairgrounds in Antioch, then Contra Loma Park in Antioch, then Ambrose Park in Bay Point before returning to the Contra Costa Fairgrounds. In our first year there were about 300 scouts and only about 15 merit badges.  AdvanceCamp moved to the Solano County Fairgrounds in 2019.</p>

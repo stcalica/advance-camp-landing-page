@@ -12,7 +12,7 @@ type FooterProps = {};
 
 const Footer = ({}: FooterProps) => {
   return (
-    <footer className="bg-white">
+    <footer className="bg-secondary-500">
       <div className="py-8 border-b border-n-100">
         <div className="container flex justify-between items-center md:block">
           <div className="flex md:justify-center md:mb-6">
@@ -36,7 +36,7 @@ const Footer = ({}: FooterProps) => {
       <div className="py-8 border-b border-n-100">
         <div className="container flex justify-between lg:flex-wrap md:block md:space-y-6">
           <div className="lg:w-full lg:mt-12">
-            <div className="mb-4 text-16m text-black">Contact Us</div>
+            <div className="mb-4 text-16m text-font-header">Contact Us</div>
             <div className="mb-14 md:mb-8 text-black">
               <p>ADVANCECAMP, INC.</p>
               <p>1169 Sentinel Court, Merced, CA 95340-0677</p>

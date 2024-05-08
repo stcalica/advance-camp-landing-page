@@ -3,7 +3,7 @@ import Image from "@/components/Image";
 type SpaProps = {};
 
 const Spa = ({}: SpaProps) => (
-    <div className="py-12 bg-white">
+    <div className="py-12 bg-secondary-500">
         <div className="container-lg flex items-center md:block">
             <div className="grow md:mb-6">
                 <Image

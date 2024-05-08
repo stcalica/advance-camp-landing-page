@@ -26,7 +26,7 @@ const libreBodoni = Libre_Bodoni({
 
 export const metadata: Metadata = {
   title: "Hidden Oasis",
-  description: "Hidden Oasis - Hotel & Resort Website Coded Template",
+  description: "Advance Camp for Scouts of America 2024",
 };
 
 export default function RootLayout({
@@ -40,13 +40,13 @@ export default function RootLayout({
         {/* Description no longer than 155 characters */}
         <meta
           name="description"
-          content="Hidden Oasis - Hotel & Resort Website Coded Template"
+          content="Advance Camp for Scouts of America 2024"
         />
 
         {/* Product Name */}
         <meta
           name="product-name"
-          content="Hidden Oasis - Hotel & Resort Website Coded Template"
+          content="Advance Camp for Scouts of America 2024"
         />
 
         {/* Twitter Card data */}
@@ -54,11 +54,11 @@ export default function RootLayout({
         <meta name="twitter:site" content="@ui8" />
         <meta
           name="twitter:title"
-          content="Hidden Oasis - Hotel & Resort Website Coded Template"
+          content="Advance Camp for Scouts of America 2024"
         />
         <meta
           name="twitter:description"
-          content="Hotel & Resort Website Template | 90+ High Premium Screens"
+          content="Advance Camp | Scouts of America | 2024"
         />
         <meta name="twitter:creator" content="@ui8" />
         {/* Twitter Summary card images must be at least 120x120px */}
@@ -70,68 +70,66 @@ export default function RootLayout({
         {/* Open Graph data for Facebook */}
         <meta
           property="og:title"
-          content="Hidden Oasis - Hotel & Resort Website Coded Template"
+          content="Advance Camp for Scouts of America 2024"
         />
         <meta property="og:type" content="Article" />
-        <meta
-          property="og:url"
-          content="https://ui8.net/jos-creative/products/hidden-oasis---hotel--resort-website-coded-template"
-        />
+ 
         <meta
           property="og:image"
           content="https://ui8-oasis-9c5d8ffa82b1.herokuapp.com/fb-og-image.png"
         />
         <meta
           property="og:description"
-          content="Hotel & Resort Website Template | 90+ High Premium Screens"
+          content="Advance Camp for Scouts of America - 2024."
         />
         <meta
           property="og:site_name"
-          content="Hidden Oasis - Hotel & Resort Website Coded Template"
+          content="Advance Camp 2024"
         />
         <meta property="fb:admins" content="132951670226590" />
 
         {/* Open Graph data for LinkedIn */}
         <meta
           property="og:title"
-          content="Hidden Oasis - Hotel & Resort Website Coded Template"
+          content="Advance Camp 2024"
         />
-        <meta
-          property="og:url"
-          content="https://ui8.net/jos-creative/products/hidden-oasis---hotel--resort-website-coded-template"
-        />
+ 
         <meta
           property="og:image"
           content="https://ui8-oasis-9c5d8ffa82b1.herokuapp.com/img/linkedin-og-image.png"
         />
         <meta
           property="og:description"
-          content="Hotel & Resort Website Template | 90+ High Premium Screens"
+          content="Advance Camp 2024"
         />
 
         {/* Open Graph data for Pinterest */}
         <meta
           property="og:title"
-          content="Hidden Oasis - Hotel & Resort Website Coded Template"
+          content="Advance Camp for Scouts of America 2024"
         />
-        <meta
-          property="og:url"
-          content="https://ui8.net/jos-creative/products/hidden-oasis---hotel--resort-website-coded-template"
-        />
-        <meta
-          property="og:image"
-          content="https://ui8-oasis-9c5d8ffa82b1.herokuapp.com/img/pinterest-og-image.png"
-        />
+
         <meta
           property="og:description"
-          content="Hotel & Resort Website Template | 90+ High Premium Screens"
+          content="Advance Camp | Scouts of America | 2024"
         />
       </head>
       <body
-        className={`${dmSans.variable} ${dmSerif.variable} ${libreBodoni.variable} font-sans antialiased text-14r text-orange-500`}
+        className={`${dmSans.variable} ${dmSerif.variable} ${libreBodoni.variable} font-sans antialiased text-14r text-white bg-secondary-500`}
       >
         {children}
       </body>
     </html>
   );
 }
+
+//TODO: REPLACE back in code with advance camp badge
+/* <meta
+property="og:image"
+content="https://ui8-oasis-9c5d8ffa82b1.herokuapp.com/img/pinterest-og-image.png"
+/> */
+
+/* <meta
+property="og:url"
+content="https://ui8.net/jos-creative/products/hidden-oasis---hotel--resort-website-coded-template"
+/> */

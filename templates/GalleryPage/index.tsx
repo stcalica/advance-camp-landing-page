@@ -57,7 +57,7 @@ const GalleryPage = () => {
             </Layout>
             <Modal
                 classWrap="bg-tranpsarent"
-                classButtonClose="top-0 right-0 z-3 bg-white"
+                classButtonClose="top-0 right-0 z-3 bg-secondary-500"
                 visible={visibleModal}
                 onClose={() => setVisibleModal(false)}
             >

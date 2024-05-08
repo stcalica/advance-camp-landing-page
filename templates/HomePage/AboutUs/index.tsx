@@ -17,10 +17,10 @@ const AboutUs = ({}: AboutUsProps) => (
       </div>    
 
       <div className="grow md:pl-[10.625rem] 2xl:pl-20 xl:pl-12 lg:pl-0">
-        <div className="text-h2 text-black">
+        <div className="text-h2 text-font-header">
             Advance Camp
         </div>
-        <div className="mb-8 font-bold text-black">
+        <div className="mb-8 font-bold text-font-header">
           <h3>September 27-28, 2024 | Solano County Fairgrounds</h3>
         </div>
         <div className="flex-col gap-2 text-1xl text-black">
@@ -30,10 +30,10 @@ const AboutUs = ({}: AboutUsProps) => (
             unusual merit badges. From 300 Scouts and 15 merit badges to a major annual gathering, thanks to the tireless
             efforts of Steve Hoagland, the Executive Director of AdvanceCamp.
           </div>
-          <div className="mb-8 font-bold text-justify">
+          <div className="mb-8 font-bold text-justify text-font-header">
             Mark your calendars for the 24th AdvanceCamp, taking place on
-            September 27-28, 2024 at the Solano County Fairgrounds. 
-            Registration opens June 1st. 
+            September 27-28, 2024 at the Solano County Fairgrounds.  
+            <h2 className={"text-black font-bold"}>Registration opens June 1st.</h2>
           </div>
           <div className="mb-8">
           </div>
