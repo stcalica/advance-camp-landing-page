@@ -6,16 +6,6 @@ export const navigation = [
     },
     {
         id: "2",
-        title: "About Us",
-        url: "/about-us",
-    },
-    {
-        id: "3",
-        title: "Contact Us",
-        url: "/contact-us",
-    },
-    {
-        id: "4",
         title: "Courses",
         url: "/courses",
         dropdown: [
@@ -30,6 +20,22 @@ export const navigation = [
             url: "/merit-badges",
         },
         ]
+    },
+    {
+        id: "3",
+        title: "Prep",
+        url: "/prep",
+    },
+
+    {
+        id: "4",
+        title: "About Us",
+        url: "/about-us",
+    },
+    {
+        id: "5",
+        title: "Contact Us",
+        url: "/contact-us",
     }
 ];
 
@@ -45,17 +51,6 @@ export const menu = [
             },
             {
                 id: "1",
-                title: "Contact Us",
-                url: "/contact-us",
-            },
-
-            {
-                id: "2",
-                title: "Leadership",
-                url: "/about-us",
-            },
-            {
-                id: "4",
                 title: "courses",
                 url: "/courses",
                 dropdown: [
@@ -70,6 +65,23 @@ export const menu = [
                     url: "/merit-badges",
                 },
                 ]
+            },
+            {
+                id: "2",
+                title: "prep",
+                url: "/prep",
+            },
+
+            {
+                id: "3",
+                title: "Contact Us",
+                url: "/contact-us",
+            },
+
+            {
+                id: "4",
+                title: "Leadership",
+                url: "/about-us",
             }
         ],
     },

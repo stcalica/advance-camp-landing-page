@@ -25,7 +25,7 @@ const libreBodoni = Libre_Bodoni({
 });
 
 export const metadata: Metadata = {
-  title: "Hidden Oasis",
+  title: "Advance Camp",
   description: "Advance Camp for Scouts of America 2024",
 };
 

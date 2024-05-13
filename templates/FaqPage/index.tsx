@@ -8,7 +8,7 @@ const FaqPage = () => {
     return (
         <Layout>
             <Hero
-                title="Frequently Asked Questions About Hidden Oasis."
+                title="Frequently Asked Questions About Advance Camp."
                 image="/images/content/hero-pic-4.jpg"
             />
             <Faqs />

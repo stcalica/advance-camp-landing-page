@@ -36,7 +36,7 @@ const Sidebar = ({ className, onClick }: SidebarProps) => (
     {navigation.map((link) =>
                 link.dropdown ? (
                     <div className="" key={link.id}>
-                        <div className="py-1 text-h4-libre text-white font-black lg:text-h5">
+                        <div className="py-1 text-h4-libre text-white font-black">
                             {link.title}
                         </div>
                         <div className="flex flex-col items-start pt-4 pl-4 space-y-6">

@@ -1,8 +1,8 @@
 import type { NextPage } from "next";
-import PrepPage from "@/templates/PrepPage";
+import FaqPage from "@/templates/FaqPage";
 
 const Prep: NextPage = () => {
-    return <PrepPage />;
+    return <FaqPage />;
 };
 
 export default Prep;

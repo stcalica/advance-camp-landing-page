@@ -23,7 +23,13 @@ const Landing = ({}: LandingProps) => (
         <h2 className="text-h4 font-bold my-4">Special Requirements</h2>
           <p className="text-16r mb-4">Many Merit Badges require that the scsout have permission slips, special clothes or shoes, extra clothes, etc. </p>
           <p className="text-black font-black">Please check the details of every Merit Badge and make sure that your scouts are prepared to work on that badge.</p>
-        <div className="mt-8 flex flex-row gap-x-4">
+        <div className="mt-8 flex flex-col lg:flex-row gap-x-4 gap-y-4">
+        <Link
+            className="px-16 py-3 bg-transparent hover:bg-orange-500 text-orange-700 font-semibold hover:text-white border border-orange-500 hover:border-transparent"
+            href="http://registration.advancecamp.com"
+          >
+            Register
+        </Link>
         <Link
             className="px-16 py-3 bg-transparent hover:bg-orange-500 text-orange-700 font-semibold hover:text-white border border-orange-500 hover:border-transparent"
             href="http://usscouts.org"
