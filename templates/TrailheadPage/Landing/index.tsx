@@ -1,15 +1,15 @@
 import Link from "next/link";
 import Image from "@/components/Image";
 
-type AboutUsProps = {};
+type LandingProps = {};
 
-const AboutUs = ({}: AboutUsProps) => (
+const Landing = ({}: LandingProps) => (
   <div className="lg:py-32 2xl:py-24 py-20 md:pb-10">
     <div className="container flex flex-column items-center max-w-[76.875rem] lg:flex-row">
       <div className="hidden lg:block">
         <Image
-          className="w-full"
-          src="/images/content/advcamplogo.png"
+          className="w-full rounded-full object-cover"
+          src="/images/content/young-scout.png"
           width={425}
           height={425}
           alt="advance camp photo"
@@ -18,20 +18,17 @@ const AboutUs = ({}: AboutUsProps) => (
 
       <div className="grow md:pl-[10.625rem] 2xl:pl-20 xl:pl-12 lg:pl-0">
         <div className="text-h2 text-font-header">
-            Advance Camp
+            Trailhead
         </div>
         <div className="mb-8 font-bold text-font-header">
-          <h3>September 27-28, 2024 | Solano County Fairgrounds</h3>
+          <h3>Register Early!</h3>
         </div>
         <div className="flex-col gap-2 text-1xl text-black">
           <div className="mb-8 text-justify">
-          AdvanceCamp provides scouts with the opportunity to complete advancement begun at another scout event, to start and complete advancement with the completion of all requirements during the camp, or to begin work on and make a contact with a counselor to complete a merit badge at a later time.
+          Advance registration helps us prepare by arranging sufficient staff, planning events, and ensuring we have all the necessary supplies. Register early to reserve your sessions and contribute to a smoother camp experience for everyone.
           </div>
-          <div className="mb-8 text-justify">
-          Since its inception in 1998, AdvanceCamp has served over 30,000
-            Scouts, providing a platform for them to complete partials for
-            unusual merit badges. From 300 Scouts and 15 merit badges to a major annual gathering, thanks to the tireless
-            efforts of Steve Hoagland, the Executive Director of AdvanceCamp.
+          <div className="mb-8 font-bold text-justify text-font-header">
+            Contact Trailhead Director with any questions. Richard Byle at gryphon97@gmail.com. 
           </div>
           <div className="mb-8 font-bold text-justify text-font-header">
             Mark your calendars for the 24th AdvanceCamp, taking place on
@@ -52,4 +49,4 @@ const AboutUs = ({}: AboutUsProps) => (
   </div>
 );
 
-export default AboutUs;
+export default Landing;

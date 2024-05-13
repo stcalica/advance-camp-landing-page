@@ -17,7 +17,7 @@ const Main = ({ id }: MainProps) => {
                     <p>
                         Hidden Oasis Resort is the perfect destination for your
                         dream wedding on the idyllic island of Phu Quoc. Located
-                        on Vinh Hy Bay, one of the world&apos;s top 50 most
+                        on Vinh Hy Bay, one of the world's top 50 most
                         beautiful beaches, our resort offers a serene and
                         breathtaking backdrop for your special day.<br></br>Our
                         team of dedicated wedding planners are experts at

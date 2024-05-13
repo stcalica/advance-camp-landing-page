@@ -22,7 +22,7 @@ const Sidebar = ({ className, onClick }: SidebarProps) => (
           src="images/content/advcamplogo.png"
           width={100}
           height={20}
-          alt=""
+          alt="advance camp logo"
         />
       </Link>
       <button className="group" onClick={onClick}>
@@ -33,9 +33,27 @@ const Sidebar = ({ className, onClick }: SidebarProps) => (
       </button>
     </div>
     <div className="flex flex-col items-start space-y-6">
-      {navigation.map((link) => (
+    {navigation.map((link) =>
+                link.dropdown ? (
+                    <div className="" key={link.id}>
+                        <div className="py-1 text-h4-libre text-white font-black lg:text-h5">
+                            {link.title}
+                        </div>
+                        <div className="flex flex-col items-start pt-4 pl-4 space-y-6">
+                            {link.dropdown.map((item) => (
+                                <Link
+                                    className="text-h6 text-white transition-colors hover:text-primary-600"
+                                    href={item.url}
+                                    key={item.id}
+                                >
+                                    {item.title}
+                                </Link>
+                            ))}
+                        </div>
+                    </div>
+                ) : (
           <Link
-            className="py-1 text-h4-libre text-white transition-colors hover:text-orange-500"
+            className="py-1 text-h4-libre text-white font-black transition-colors hover:text-orange-500 text-bold"
             href={link.url}
             key={link.id}
           >

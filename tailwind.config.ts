@@ -141,7 +141,7 @@ const config: Config = {
                         {},
                 },
                 ".btn-primary": {
-                    "@apply btn bg-primary-500 text-white hover:bg-primary-700":
+                    "@apply btn bg-primary-500 text-white hover:bg-orange-700":
                         {},
                 },
                 ".btn-secondary": {
@@ -169,7 +169,7 @@ const config: Config = {
                         {},
                 },
                 ".text-h4": {
-                    "@apply text-[1.5rem] leading-[1.8rem] font-bold italic text-primary-500":
+                    "@apply text-[1.5rem] leading-[1.8rem] font-bold text-primary-500":
                         {},
                 },
                 ".text-h4-libre": {
@@ -193,27 +193,27 @@ const config: Config = {
                         {},
                 },
                 ".text-16r": {
-                    "@apply text-[1rem] leading-[1.5rem] tracking-normal":
+                    "@apply text-[1rem] leading-[1.5rem] tracking-normal text-black":
                         {},
                 },
                 ".text-16m": {
-                    "@apply text-[1rem] leading-[1.5rem] font-medium tracking-normal":
+                    "@apply text-[1rem] leading-[1.5rem] font-medium tracking-normal text-black":
                         {},
                 },
                 ".text-14r": {
-                    "@apply text-[0.875rem] leading-[1.5rem] tracking-[.03rem]":
+                    "@apply text-[0.875rem] leading-[1.5rem] tracking-[.03rem] text-black":
                         {},
                 },
                 ".text-14m": {
-                    "@apply text-[0.875rem] leading-[1.5rem] font-medium tracking-normal":
+                    "@apply text-[0.875rem] leading-[1.5rem] font-medium tracking-normal text-black":
                         {},
                 },
                 ".text-14b": {
-                    "@apply text-[0.875rem] leading-[1.375rem] font-bold tracking-normal":
+                    "@apply text-[0.875rem] leading-[1.375rem] font-bold tracking-normal text-black":
                         {},
                 },
                 ".text-subtitle": {
-                    "@apply text-[0.75rem] leading-[1.125rem] font-medium tracking-[.24em]":
+                    "@apply text-[0.75rem] leading-[1.125rem] font-medium tracking-[.24em] text-black":
                         {},
                 },
                 ".text-button": {
@@ -224,6 +224,14 @@ const config: Config = {
                     "@apply mb-6 text-subtitle uppercase text-n-500":
                         {},
                 },
+                ".icon-white": {
+                    "@apply invert brightness-200":
+                    {},
+                }, 
+                ".stations": {
+                    "@apply bg-primary-500 flex flex-col items-center justify-center p-4 rounded-lg shadow-lg transition-all hover:shadow-xl w-full xl:min-w-[200px] h-[200px] text-white" :
+                    {}
+                }
             });
             addUtilities({
                 ".tap-highlight-color": {
