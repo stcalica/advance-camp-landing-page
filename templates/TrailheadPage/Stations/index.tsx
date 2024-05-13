@@ -10,7 +10,7 @@ const Stations = ({}: StationsProps) => (
             <figure className="stations">
             <Image
             className="icon-white"
-            src="/images/icons/lashings.png"
+            src="images/icons/lashings.png"
             width={150}
             height={150}
             alt="advance camp photo"
@@ -20,7 +20,7 @@ const Stations = ({}: StationsProps) => (
         <figure className="stations">
             <Image
             className="icon-white"
-            src="/images/icons/first-aid.png"
+            src="images/icons/first-aid.png"
             width={150}
             height={150}
             alt="advance camp photo"
@@ -30,7 +30,7 @@ const Stations = ({}: StationsProps) => (
         <figure className="stations">
             <Image
             className="icon-white"
-            src="/images/icons/flags.png"
+            src="images/icons/flags.png"
             width={150}
             height={150}
             alt="advance camp photo"
@@ -40,7 +40,7 @@ const Stations = ({}: StationsProps) => (
         <figure className="stations mb-10">
             <Image
             className="icon-white"
-            src="/images/icons/knives.png"
+            src="images/icons/knives.png"
             width={150}
             height={150}
             alt="advance camp photo"

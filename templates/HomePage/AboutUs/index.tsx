@@ -9,7 +9,7 @@ const AboutUs = ({}: AboutUsProps) => (
       <div className="hidden lg:block">
         <Image
           className="w-full"
-          src="/images/content/advcamplogo.png"
+          src="images/content/advcamplogo.png"
           width={425}
           height={425}
           alt="advance camp photo"

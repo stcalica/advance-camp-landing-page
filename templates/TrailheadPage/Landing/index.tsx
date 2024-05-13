@@ -9,7 +9,7 @@ const Landing = ({}: LandingProps) => (
       <div className="hidden lg:block">
         <Image
           className="w-full rounded-full object-cover"
-          src="/images/content/young-scout.png"
+          src="images/content/young-scout.png"
           width={425}
           height={425}
           alt="advance camp photo"
