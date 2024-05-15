@@ -26,11 +26,10 @@ export const navigation = [
         title: "Prep",
         url: "/prep",
     },
-
     {
         id: "4",
-        title: "About Us",
-        url: "/about-us",
+        title: "Forms",
+        url: "/forms",
     },
     {
         id: "5",
@@ -82,6 +81,11 @@ export const menu = [
                 id: "4",
                 title: "Leadership",
                 url: "/about-us",
+            },
+            {
+                id: "5",
+                title: "Forms",
+                url: "/forms",
             }
         ],
     },
