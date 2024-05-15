@@ -4,7 +4,7 @@ import Image from "@/components/Image";
 type LandingProps = {};
 
 const Landing = ({}: LandingProps) => (
-  <div className="lg:py-32 2xl:py-24 py-20 md:pb-10">
+  <div className="lg:py-32 2xl:py-24 py-20 md:pb-1">
     <div className="container flex flex-column items-center max-w-[76.875rem] lg:flex-row">
       <div className="hidden lg:block">
         <Image
