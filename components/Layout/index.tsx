@@ -32,7 +32,7 @@ const Layout = ({ children }: LayoutProps) => {
     clearQueueScrollLocks();
     enablePageScroll();
   }, [pathname]);
-//TODO: might have to fix overflow-hidden to lg:overflow-hidden
+
   return (
     <>
       <div className="flex flex-col min-h-screen overflow-hidden">

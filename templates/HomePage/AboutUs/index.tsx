@@ -4,8 +4,18 @@ import Image from "@/components/Image";
 type AboutUsProps = {};
 
 const AboutUs = ({}: AboutUsProps) => (
-  <div className="lg:py-32 2xl:py-24 py-20 md:pb-10">
+  <div className="lg:pb-32 2xl:pb-24 pb-20 md:pb-10">
+          <div className="w-full">
+        <Image
+                  className="w-full sm:6rem xs:6rem md:6rem lg:12rem xl:12rem 2xl:12rem"
+                  src="images/banners/advancecampbanner.png"
+                  width={1500}
+                  height={220}
+                  alt="advance camp banner"
+        />
+      </div>
     <div className="container flex flex-column items-center max-w-[76.875rem] lg:flex-row">
+
       <div className="hidden lg:block">
         <Image
           className="w-full"

@@ -19,6 +19,11 @@ export const navigation = [
             title: "Merit Badges",
             url: "/merit-badges",
         },
+        {
+            id: "2",
+            title: "Merit Badge Requirements",
+            url: "/requirements",
+        },
         ]
     },
     {
@@ -63,6 +68,11 @@ export const menu = [
                     title: "Merit Badges",
                     url: "/merit-badges",
                 },
+                {
+                    id: "2",
+                    title: "Merit Badge Requirements",
+                    url: "/requirements",
+                }
                 ]
             },
             {

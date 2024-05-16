@@ -38,9 +38,9 @@ const Landing = ({}: LandingProps) => (
         </Link>
         <Link
             className="px-16 py-3 bg-transparent hover:bg-orange-500 text-orange-700 font-semibold hover:text-white border border-orange-500 hover:border-transparent"
-            href="http://usscouts.org"
+            href="/requirements"
           >
-            Check Permissions
+            Check Requirements
         </Link>
         </div>
         </div>

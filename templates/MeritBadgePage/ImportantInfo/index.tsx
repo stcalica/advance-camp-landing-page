@@ -1,53 +1,10 @@
 import Link from "next/link";
 import Image from "@/components/Image";
-import {requirements} from '@/constants/badgerequirements';
 
 type LandingProps = {};
-interface Requirement {
-  badge: string;
-  age: string;
-  grade: string;
-  rank: string;
-  cost: string;
-  prerequisites: string;
-}
-
-
-const RequirementsTable: React.FC = () => {
-  return (
-    <div>
-      <h2 className="text-h4 font-bold my-4">Merit Badge Requirements</h2>
-      <table className="table-auto w-full border-collapse border border-n-300d">
-        <thead>
-          <tr>
-            <th title="Field #1">Merit Badge</th>
-            <th title="Field #2">Min. Age:</th>
-            <th title="Field #3">Min. Grade</th>
-            <th title="Field #4">Min. Rank:</th>
-            <th title="Field #5">Cost</th>
-            <th title="Field #6">Prerequisites</th>
-          </tr>
-        </thead>
-        <tbody>
-          {requirements.map((r: Requirement, index: number) => (
-            <tr key={index}>
-              <td className="border border-n-300 px-4 py-2 text-left">{r.badge}</td>
-              <td className="border border-n-300 px-4 py-2 text-left">{r.age}</td>
-              <td className="border border-n-300 px-4 py-2 text-left">{r.grade}</td>
-              <td className="border border-n-300 px-4 py-2 text-left">{r.rank}</td>
-              <td className="border border-n-300 px-4 py-2 text-left">{r.cost}</td>
-              <td className="border border-n-300 px-4 py-2 text-left">{r.prerequisites}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
-  );
-};
 
 const ImportantInfo = ({}: LandingProps) => (
   <div className="container lg:py-4 2xl:py-24 py-8 md:pb-10 text-black text-justify">
-      <RequirementsTable />
        <h2 className="text-h4 font-bold my-4">Additional Fees</h2>
           <p className="text-16r mb-4">Archery, Basketry, Climbing, Indian Lore, Lifesaving, Plumbing, Programming, Search and Rescue, Robotics, Swimming, and Welding will carry an additional $30 fee. Partial Archery is $15.00</p>
           <p className="text-16r mb-4"><strong>AVIATION MERIT BADGE</strong> has a different fee of $75 because scouts will be flying as a part of the badge work that day.</p>
