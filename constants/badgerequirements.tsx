@@ -222,6 +222,173 @@ export const requirements =  [
       rank: "",
       cost: "",
       prerequisites: ""
-    }
-  ]
-  
+    }, 
+      {
+        badge: "Mammal Study",
+        age: null,
+        grade: null,
+        rank: null,
+        cost: null,
+        prerequisites: "Read the Merit Badge pamphlet"
+      },
+      {
+        badge: "Mining in Society",
+        age: null,
+        grade: null,
+        rank: null,
+        cost: "X",
+        prerequisites: "Req #2"
+      },
+      {
+        badge: "Music",
+        age: null,
+        grade: null,
+        rank: null,
+        cost: null,
+        prerequisites: "3,4"
+      },
+      {
+        badge: "Nuclear Science",
+        age: "13 Yrs +",
+        grade: null,
+        rank: null,
+        cost: null,
+        prerequisites: "# 3"
+      },
+      {
+        badge: "Orienteering",
+        age: null,
+        grade: null,
+        rank: null,
+        cost: null,
+        prerequisites: "7,8"
+      },
+      {
+        badge: "Personal Fitness",
+        age: null,
+        grade: null,
+        rank: null,
+        cost: null,
+        prerequisites: "1a, 7,8,9"
+      },
+      {
+        badge: "Personal Management",
+        age: "13 Yrs +",
+        grade: null,
+        rank: null,
+        cost: null,
+        prerequisites: "1,2,8,9,10"
+      },
+      {
+        badge: "Photography",
+        age: null,
+        grade: null,
+        rank: null,
+        cost: null,
+        prerequisites: null
+      },
+      {
+        badge: "Plumbing",
+        age: "13 Yrs +",
+        grade: null,
+        rank: null,
+        cost: "X",
+        prerequisites: "Permission slip & proper clothing required (Long Sleeve Shirts / Close Toe Shoes NOT CLASS A's)"
+      },
+      {
+        badge: "Programing",
+        age: null,
+        grade: null,
+        rank: null,
+        cost: null,
+        prerequisites: "1a, 5"
+      },
+      {
+        badge: "Radio",
+        age: null,
+        grade: null,
+        rank: null,
+        cost: "X",
+        prerequisites: "7,8,9"
+      },
+      {
+        badge: "Reptile & Amphibian Studies",
+        age: null,
+        grade: null,
+        rank: null,
+        cost: null,
+        prerequisites: "Read booklet; Complete 8,9"
+      },
+      {
+        badge: "Robotics",
+        age: "13 Yrs +",
+        grade: null,
+        rank: null,
+        cost: null,
+        prerequisites: "6,7"
+      },
+      {
+        badge: "Sculpture",
+        age: null,
+        grade: null,
+        rank: null,
+        cost: null,
+        prerequisites: null
+      },
+      {
+        badge: "Sustainability",
+        age: "13 Yrs +",
+        grade: "8th +",
+        rank: "1st Class+",
+        cost: null,
+        prerequisites: "#1; 2: Water, A: Stuff, A & B or C; Energy, A & B or C;4, 5 - if 1-4 are complete"
+      },
+      {
+        badge: "Swimming",
+        age: null,
+        grade: null,
+        rank: null,
+        cost: "X",
+        prerequisites: "Must be able to pass BSA swim test"
+      },
+      {
+        badge: "Welding",
+        age: "13 Yrs +",
+        grade: null,
+        rank: null,
+        cost: "X",
+        prerequisites: "Permission slip & proper clothing required (Long Sleeve Shirts / Close Toe Shoes NOT CLASS A's)"
+      },
+      {
+        badge: "Wilderness Survival",
+        age: null,
+        grade: null,
+        rank: "2nd Class+",
+        cost: null,
+        prerequisites: "Scouts Doing Overnight Need to Check in By Registration for Overnight Activity between 7p-10p."
+      },
+      {
+        badge: "Wood Carving",
+        age: null,
+        grade: null,
+        rank: null,
+        cost: null,
+        prerequisites: "Totin Chip / Bring your Own Knife for Sharpening"
+      },
+      {
+        badge: "Partials",
+        age: null,
+        grade: null,
+        rank: null,
+        cost: null,
+        prerequisites: "Bring Blue Card & Worksheet with Proof of completion - see website"
+      },
+      {
+        badge: "Trailhead Swim",
+        age: null,
+        grade: null,
+        rank: null,
+        cost: null,
+        prerequisites: "Bring 2nd set of clothes. Must already know how to swim (not a swim class)"
+      } 
+]

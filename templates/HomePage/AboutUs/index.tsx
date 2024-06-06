@@ -11,6 +11,7 @@ const AboutUs = ({}: AboutUsProps) => (
                   src="images/banners/advancecampbanner.png"
                   width={1500}
                   height={220}
+                  layout="responsive"
                   alt="advance camp banner"
         />
       </div>
