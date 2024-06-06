@@ -4,12 +4,12 @@ import {requirements} from '@/constants/badgerequirements';
 type MainProps = {};
 
 interface Requirement {
-    badge: string;
-    age: string;
-    grade: string;
-    rank: string;
-    cost: string;
-    prerequisites: string;
+    badge: string | null;
+    age: string | null;
+    grade: string | null;
+    rank: string | null;
+    cost: string | null;
+    prerequisites: string | null;
   }
   
   const RequirementsTable: React.FC = () => {
@@ -26,15 +26,15 @@ interface Requirement {
             </tr>
           </thead>
           <tbody>
-            {requirements.map((r: Requirement, index: number) => (
-              <tr key={index}>
-                <td className="border border-n-300 px-4 py-2 text-left">{r.badge}</td>
-                <td className="border border-n-300 px-4 py-2 text-left">{r.age}</td>
-                <td className="border border-n-300 px-4 py-2 text-left">{r.grade}</td>
-                <td className="border border-n-300 px-4 py-2 text-left">{r.rank}</td>
-                <td className="border border-n-300 px-4 py-2 text-left">{r.prerequisites}</td>
-              </tr>
-            ))}
+          {requirements.map((r: Requirement, index: number) => (
+          <tr key={index}>
+            <td className="border border-n-300 px-4 py-2 text-left">{r.badge}</td>
+            <td className="border border-n-300 px-4 py-2 text-left">{r.age}</td>
+            <td className="border border-n-300 px-4 py-2 text-left">{r.grade}</td>
+            <td className="border border-n-300 px-4 py-2 text-left">{r.rank}</td>
+            <td className="border border-n-300 px-4 py-2 text-left">{r.prerequisites}</td>
+          </tr>
+        ))}
           </tbody>
         </table>
       </div>
