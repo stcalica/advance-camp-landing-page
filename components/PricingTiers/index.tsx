@@ -5,6 +5,8 @@ type tierType = {
     id: string;
     price: number;
     title: string;
+    startDate: string;
+    endDate: string;
 };
 
 const PricingTier = ({tier}: {tier: tierType}) => (
@@ -12,6 +14,8 @@ const PricingTier = ({tier}: {tier: tierType}) => (
     w-full xl:min-w-[400px] h-[250px] text-white">
             <h1 className="text-8xl font-extrabold text-sans leading-none mb-2 text-white">${tier.price}</h1>
         <figcaption className="text-xl font-semibold text-white">{tier.title}</figcaption>
+        <h3 className="text-xl font-semibold text-white">{tier.startDate} - {tier.endDate}</h3>
+
     </figure>
 );
 export default PricingTier;
