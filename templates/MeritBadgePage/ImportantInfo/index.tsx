@@ -5,6 +5,16 @@ type LandingProps = {};
 
 const ImportantInfo = ({}: LandingProps) => (
   <div className="container lg:py-4 2xl:py-24 py-8 md:pb-10 text-black text-justify">
+       <h2 className="text-h4 font-bold my-4">Merit Badge List</h2>
+          <p className="text-16r mb-4">List of merit badge courses are on the requirements page found <strong><a href="/requirements">here</a></strong> if any courses are missing then we are still looking for counselors for said courses.</p>
+        <div className="container py-4 text-black text-justify">
+          <Link
+            className="mx-auto px-16 py-3 bg-transparent hover:bg-orange-500 text-orange-700 font-semibold hover:text-white border border-orange-500 hover:border-transparent"
+            href="/requirements"
+          >
+            See Merit Badges
+        </Link>
+        </div>
        <h2 className="text-h4 font-bold my-4">Additional Fees</h2>
           <p className="text-16r mb-4">Archery, Basketry, Climbing, Indian Lore, Lifesaving, Plumbing, Programming, Search and Rescue, Robotics, Swimming, and Welding will carry an additional $30 fee. Partial Archery is $15.00</p>
           <p className="text-16r mb-4"><strong>AVIATION MERIT BADGE</strong> has a different fee of $75 because scouts will be flying as a part of the badge work that day.</p>

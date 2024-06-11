@@ -88,6 +88,22 @@ export const requirements =  [
       prerequisites: ""
     },
     {
+      badge: "Chess",
+      age: "",
+      grade: "",
+      rank: "",
+      cost: "",
+      prerequisites: ""
+    },
+    {
+      badge: "Citizenship in the Community",
+      age: "",
+      grade: "7th +",
+      rank: "2nd Class+",
+      cost: "",
+      prerequisites: "2 a & b(Bring Map to Camp), 3a (Can be Video (take notes)), 4,7,8"
+    },
+    {
       badge: "Citizenship in the Nation",
       age: "14 Yrs +",
       grade: "9th +",

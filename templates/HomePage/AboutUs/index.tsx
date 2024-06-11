@@ -56,6 +56,12 @@ const AboutUs = ({}: AboutUsProps) => (
             >
               Register
           </Link>
+          <Link
+              className="mx-8 px-16 py-3 bg-transparent hover:bg-orange-500 text-orange-700 font-semibold hover:text-white border border-orange-500 hover:border-transparent"
+              href="/requirements"
+            >
+              Merit Badges
+          </Link>
           </div>
         </div>
       </div>
