@@ -365,7 +365,7 @@ export const requirements =  [
         grade: null,
         rank: null,
         cost: "X",
-        prerequisites: "Must be able to pass BSA swim test"
+        prerequisites: "Evidence of completion of Swimming MB prior to camp; ability to swim continuously 400 yards in a strong manner; bring shoes, socks, sweatpants and sweatshirt to complete Req 9."
       },
       {
         badge: "Welding",
