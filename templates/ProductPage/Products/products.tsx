@@ -33,7 +33,6 @@ export const Products = ({ products }) => {
 
       if (response.status == 200) {
         const sessionInfo = await response.data;
-        console.log("response: ", response.data)
         const session = sessionInfo.session
         window.location.href = session.url;
       }

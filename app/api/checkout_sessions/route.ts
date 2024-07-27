@@ -18,6 +18,11 @@ export async function POST(req: NextRequest) {
         {
           price: priceId,
           quantity: 1,
+          adjustable_quantity: {
+            enabled: true,
+            minimum: 1,
+            maximum: 999
+          }
         },
       ],
       mode: 'payment',
@@ -34,8 +39,6 @@ export async function POST(req: NextRequest) {
         }
       ]
     });
-
-    console.log("redirect: ", session.url)
 
     return NextResponse.json({ session: session, ok: true });
   } catch (err: any) {
