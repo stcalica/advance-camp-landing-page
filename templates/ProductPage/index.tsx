@@ -16,20 +16,20 @@ interface Product {
 }
 
 export const ProductPage = () => {
-  const [products, setProducts] = useState<Product[]>([]);
+  // const [products, setProducts] = useState<Product[]>([]);
 
-  useEffect(() => {
-    async function fetchProducts() {
-      const { data } = await axios.get("api/products");
-      setProducts(data);
-    }
-    fetchProducts();
-  }, []);
+  // useEffect(() => {
+  //   async function fetchProducts() {
+  //     const { data } = await axios.get("api/products/prod_QZbckqNMVW2aKi");
+  //     setProducts(data);
+  //   }
+  //   fetchProducts();
+  // }, []);
 
 
   return (
     <Layout>
-      <Products products={products} />
+      <Products />
     </Layout>
   )
 }
