@@ -40,6 +40,11 @@ export const navigation = [
         id: "5",
         title: "Contact Us",
         url: "/contact-us",
+    },
+    {
+        id: "6",
+        title: "T-Shirts",
+        url: "/products"
     }
 ];
 
@@ -96,6 +101,11 @@ export const menu = [
                 id: "5",
                 title: "Forms",
                 url: "/forms",
+            },
+            {
+                id: "6",
+                title: "T-Shirts",
+                url: "/tshirts"
             }
         ],
     },

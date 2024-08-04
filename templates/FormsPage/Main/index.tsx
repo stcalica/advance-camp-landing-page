@@ -4,13 +4,13 @@ import { team } from "@/mocks/team";
 
 type MainProps = {};
 
-const Main = ({}: MainProps) => (
+const Main = ({ }: MainProps) => (
     <div className="py-20">
-        
+
         <div className="text-center text-h1 mb-16">Important Information</div>
         <a href="/forms/2024 Event Schedule.docx" target="_" className="text-center text-h4 mb-16"><h3>2024 Event Schedule</h3></a>
         <a href="/forms/AMvPM.pdf" target="_" className="text-center text-h4 mb-16"><h3>AMvPM</h3></a>
-        <a href="/forms/AdvanceCamp 2024 Leaders' Guide 5.16.24.docx" target="_" className="text-center text-h4 mb-16"><h3>AdvanceCamp 2024 Leaders' Guide</h3></a>
+        <a href="/forms/AdvanceCamp 2024 Leaders' Guide 7.23.24.docx" target="_" className="text-center text-h4 mb-16"><h3>AdvanceCamp 2024 Leaders' Guide</h3></a>
         <a href="/forms/BSA Guide to Advancement.pdf" target="_" className="text-center text-h4 mb-16"><h3>BSA Guide to Advancement</h3></a>
         <br />
         <div className="text-center text-h1 mb-16">Worksheets</div>
