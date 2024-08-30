@@ -72,11 +72,6 @@ export const menu = [
                     id: "1",
                     title: "Merit Badges",
                     url: "/merit-badges",
-                },
-                {
-                    id: "2",
-                    title: "Merit Badge Requirements",
-                    url: "/requirements",
                 }
                 ]
             },
