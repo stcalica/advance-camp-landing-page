@@ -17,9 +17,9 @@ const AboutUs = ({ }: AboutUsProps) => (
     </div>
     <div className="container flex flex-column items-center max-w-[76.875rem] lg:flex-row">
 
-      <div className="hidden lg:block">
+      <div className="hidden lg:block" >
         <Image
-          className="w-full"
+          className="w-half"
           src="images/content/advcamplogo.png"
           width={425}
           height={425}
@@ -32,29 +32,40 @@ const AboutUs = ({ }: AboutUsProps) => (
           Advance Camp
         </div>
         <div className="mb-8 font-bold text-font-header">
-          <h3>September 27-28, 2024 | Solano County Fairgrounds</h3>
+          <h3>Friday and Saturday | September 26-27, 2025 | Solano County Fairgrounds, Vallejo, CA</h3>
         </div>
         <div className="flex-col gap-2 text-1xl text-black">
-          <div className="mb-8 text-justify">
+          {/* <div className="mb-8 text-justify">
             AdvanceCamp provides scouts with the opportunity to complete advancement begun at another scout event, to start and complete advancement with the completion of all requirements during the camp, or to begin work on and make a contact with a counselor to complete a merit badge at a later time.
+          </div> */}
+          <div className="flex-col gap-2 text-1xl text-black">
+            WOW, Another year of advancement and fun. Thank you for your support and attendance this year.
           </div>
-          <div className="mb-8 text-justify">
+          {/* <div className="mb-8 text-justify">
             Since its inception in 1998, AdvanceCamp has served over 30,000
             Scouts, providing a platform for them to complete partials for
             unusual merit badges. From 300 Scouts and 15 merit badges to a major annual gathering, thanks to the tireless
             efforts of Steve Hoagland, the Executive Director of AdvanceCamp.
+          </div> */}
+          <div className="mb-8 text-justify">
+            Next year we celebrate our 25th anniversary of AdvanceCamp and invite you to be a part of it in September.
           </div>
-          <div className="mb-8 font-bold text-justify text-font-header">
+          <div style={{ padding: "25px" }}>
+            <video width="640" height="480" controls autoPlay>
+              <source src="videos/advance-camp.mp4" type="video/mp4" />
+            </video>
+          </div>
+          {/* <div className="mb-8 font-bold text-justify text-font-header">
             We are excited to see you at camp, there will be no onsite registration.
             <h2 className="text-black font-bold">Registration opens June 1st.</h2>
-          </div>
+          </div> */}
           <div>
-            <Link
+            {/* <Link
               className="px-16 py-3 bg-transparent hover:bg-orange-500 text-orange-700 font-semibold hover:text-white border border-orange-500 hover:border-transparent"
               href="https://registration.advancecamp.com"
             >
               Register
-            </Link>
+            </Link> */}
             <Link
               className="mx-8 px-16 py-3 bg-transparent hover:bg-orange-500 text-orange-700 font-semibold hover:text-white border border-orange-500 hover:border-transparent"
               href="/requirements"
@@ -65,7 +76,7 @@ const AboutUs = ({ }: AboutUsProps) => (
         </div>
       </div>
     </div>
-  </div>
+  </div >
 );
 
 export default AboutUs;
